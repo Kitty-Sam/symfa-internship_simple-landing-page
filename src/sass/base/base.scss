@@ -17,15 +17,13 @@ a {
   text-decoration: none;
 }
 
-
 main {
   max-width: $laptop-width;
   margin: 0 auto;
   background: $background-light-color;
 }
 
-
-h1{
+h1 {
   @extend %font-prim;
   @include font($size: 4.0rem, $height: 124.41%, $weight: 700);
 }

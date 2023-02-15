@@ -8,16 +8,15 @@
   cursor: pointer;
 }
 
-
 .btn_border {
   margin-bottom: 220px;
-  padding: 15px 40px 23px;
+  padding: 20px 40px;
   background: $button-color;
   border: 15px solid $button-border_color;
   background-clip: padding-box;
   border-radius: 50px;
   text-transform: uppercase;
-  color: $text-light-color ;
+  color: $text-light-color;
 }
 
 .bth_round {
