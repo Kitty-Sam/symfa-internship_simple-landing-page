@@ -6,7 +6,7 @@
 }
 
 
-@mixin square-item ($weight: 330px, $height: 212px, $border_radius: 10px, $box-shadow: 0 20px 40px $shadow-color-item ) {
+@mixin square-item ($weight: 330px, $height: 212px, $border_radius: 10px, $box-shadow: 0 20px 40px $shadow-color-item) {
   width: $weight;
   height: $height;
   border-radius: $border_radius;
