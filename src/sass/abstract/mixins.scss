@@ -1,0 +1,14 @@
+@mixin font ($size, $height: $size, $weight: 400, $style: normal) {
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+
+@mixin square-item ($weight: 330px, $height: 212px, $border_radius: 10px, $box-shadow: 0 20px 40px $shadow-color-item ) {
+  width: $weight;
+  height: $height;
+  border-radius: $border_radius;
+  box-shadow: $box-shadow ;
+}

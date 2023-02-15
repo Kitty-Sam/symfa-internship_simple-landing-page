@@ -1,7 +1,7 @@
 .header {
   max-width: $laptop-width;
   margin: 0 auto;
-  background-color: $background-color;
+  background-color: $background-light-color;
   background-image: url("./assets/header.jpeg");
   background-repeat: no-repeat;
 }
@@ -69,4 +69,42 @@
 
 .header__content {
   width: 50%;
+}
+
+
+.btn_container {
+  position: absolute;
+  top: 520px;
+  left: 320px;
+}
+
+.btn_round_inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 153.12%);
+  color: $text-blue-color;
+}
+
+.bold_text {
+  @extend %font-prim;
+  @include font($size: 3.4rem, $height: 153.12%, $weight: 700);
+  color: $text-blue-color;
+}
+
+.little_font {
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 143.55%, $weight: 700);
+  color: $text-blue-color;
+}
+
+.smallest_font {
+  padding-top: 20px;
+  @extend %font-prim;
+  @include font($size: 1.0rem, $height: 1 rem, $weight: 400);
+  color: $text-blue-color;
 }

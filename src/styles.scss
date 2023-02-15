@@ -1,14 +1,15 @@
-@import './sass/abstract/_constants.scss';
-@import './sass/abstract/_mixins.scss';
-@import './sass/abstract/_placeholders.scss';
+@import "sass/abstract/constants";
+@import "sass/abstract/mixins";
+@import "sass/abstract/placeholders";
 
 
-@import './sass/base/_base.scss';
-@import './sass/base/_buttons.scss';
+
+@import "sass/base/base";
+@import "sass/base/buttons";
 
 
-@import './sass/components/_header.scss';
-@import './sass/components/_reasons.scss';
-@import './sass/components/_directions.scss';
-
-
+@import "sass/components/header";
+@import "sass/components/reasons";
+@import "sass/components/directions";
+@import "sass/components/about_course";
+@import "sass/components/results";

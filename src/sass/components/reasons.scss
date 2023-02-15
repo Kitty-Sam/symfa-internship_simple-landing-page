@@ -1,17 +1,23 @@
 .reasons {
+  width: 1440px;
+  background: $background-white-color;
+}
+
+.reasons-wrapper {
   display: flex;
   align-items: center;
   max-width: 1174px;
   margin: 0 auto;
+
 }
 
 .reasons__title {
+  @extend %font-prim;
+  @include font($size: 3.0rem, $height: 143.55%, $weight: 700);
   display: block;
   width: 506px;
-  padding-right: 150px;
+  padding-right: 160px;
   color: $text-dark-color;
-  font-weight: 700;
-  font-size: 30px;
 }
 
 .reasons__group {
@@ -30,16 +36,14 @@
 }
 
 .reasons__group-item-percent {
+  @extend %font-prim;
+  @include font($size: 2.4rem, $height: 143.55%, $weight: 700);
   margin-bottom: 13px;
   color: $text-blue-color;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 143.55%;
 }
 
 .reasons__group-item-content {
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 143.55%, $weight: 400);
   color: $text-dark-color;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 143.55%;
 }
