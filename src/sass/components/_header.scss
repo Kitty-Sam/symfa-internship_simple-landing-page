@@ -1,0 +1,72 @@
+.header {
+  max-width: $laptop-width;
+  margin: 0 auto;
+  background-color: $background-color;
+  background-image: url("./assets/header.jpeg");
+  background-repeat: no-repeat;
+}
+
+.header__navbar {
+  max-width: 1176px;
+  margin: 0 auto 108px;
+  padding-top: 32px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__cities_list ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.navbar__menu_list ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar__cities_list li {
+  padding-right: 25px;
+}
+
+.navbar__menu_list li {
+  padding-left: 41px;
+}
+
+.navbar__menu_list li:last-child {
+  padding-left: 66px;
+}
+
+.header__content-title {
+  margin-bottom: 35px;
+}
+
+.header__content-period {
+  @extend %font-prim;
+  @include font($size: 1.6rem, $height: 124.41%);
+  margin-bottom: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header__content-place {
+  @extend %font-prim;
+  @include font($size: 1.8rem, $height: 124.41%);
+  margin-bottom: 29px;
+}
+
+.header__event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__content {
+  width: 50%;
+}
