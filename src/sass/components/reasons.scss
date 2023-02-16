@@ -45,5 +45,5 @@
 .reasons__group-item-content {
   @extend %font-prim;
   @include font($size: 1.4rem, $height: 143.55%, $weight: 400);
-  color: $text-dark-color;
+  color: $text-grey-color;
 }
