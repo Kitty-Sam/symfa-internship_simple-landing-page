@@ -103,8 +103,11 @@
 }
 
 .smallest_font {
-  padding-top: 20px;
   @extend %font-prim;
   @include font($size: 1.0rem, $height: 1 rem, $weight: 400);
   color: $text-blue-color;
+}
+
+.smallest_font-link {
+  margin-top: 20px;
 }
