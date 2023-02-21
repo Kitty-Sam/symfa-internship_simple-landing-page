@@ -2,7 +2,7 @@
   background-color: $background-white-color;
 }
 
-.author_profile-wrapper{
+.author_profile-wrapper {
   max-width: 1168px;
   margin: 0 auto;
   position: relative;
@@ -19,7 +19,6 @@
 
 .author_profile__player {
 border-radius: 10px;
-
 }
 
 .author_profile__play {
@@ -29,7 +28,6 @@ border-radius: 10px;
   width: 75px;
   height: 75px;
 }
-
 
 .author_profile__group {
   display: grid;
@@ -55,7 +53,7 @@ border-radius: 10px;
   padding-bottom: 13px;
 }
 
-.author_profile__group-item-content{
+.author_profile__group-item-content {
   @extend %font-prim;
   @include font($size: 1.6rem, $height: 143.55%, $weight: 400);
   color: $text-grey-color;
@@ -74,7 +72,7 @@ border-radius: 10px;
   color: $text-blue-color;
 }
 
-.author_profile-note_content{
+.author_profile-note_content {
   @extend %font-prim;
   @include font($size: 1.6rem, $height: 143.55%, $weight: 400);
   color: $text-grey-color;

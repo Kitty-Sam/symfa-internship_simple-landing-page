@@ -17,7 +17,7 @@
   padding: 66px 0 40px 0;
 }
 
-.results__title{
+.results__title {
   @extend %font-prim;
   @include font($size: 3.5rem, $height: 124.41%, $weight: 700);
   color: $text-light-color;
