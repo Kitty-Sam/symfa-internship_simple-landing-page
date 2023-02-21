@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -34,22 +34,25 @@
   <div class="header__event">
        <div class="header__content">
           <span class="header__content-period">Санкт-петербург 10-21 мая</span>
-          <h1>Начни делать Customer Development и проверять гипотезы</h1>
+          <h1 class="header__content-title">Начни делать Customer Development и проверять гипотезы</h1>
           <p class="header__content-place">На оффлайн курсе из 5 воркшопов</p>
-          <button class="btn btn_order">Записаться</button>
+          <button class="btn btn_border">Записаться</button>
        </div>
   </div>
-  <button class="btn bth_round">
-    <span>Оценка</span>
-    <span>9 из 10</span>
-    <span>Иван Матвиенко</span>
-    <span>Wimprof</span>
-    <span>Читать отзыв →</span>
-  </button>
+  <div class="btn_container">
+  <div class="btn bth_round btn_round_inside">
+    <span class="text">Оценка</span>
+    <span class="bold_text">9 из 10</span>
+    <span class="text">Иван Матвиенко</span>
+    <span class="little_font">Wimprof</span>
+    <a href="#" class="smallest_font-link"><span class="smallest_font">Читать отзыв →</span></a>
+  </div>
+  </div>
 </header>
 
 <main>
   <section class="reasons">
+    <div class="reasons-wrapper">
     <span class="reasons__title">
       Если вы не делаете Customer Development — вы не управляете движением к product-market fit
     </span>
@@ -79,6 +82,7 @@
         </p>
       </div>
     </div>
+    </div>
   </section>
 
   <section class="directions">
@@ -105,6 +109,159 @@
           запустить процесс проверки гипотез в котором вы быстрее и ЗНАЧИТЕЛЬНО дешевле найдёте product-market fit
         </p>
       </div>
+    </div>
+  </section>
+
+  <section class="about_course">
+    <div class="about_course-wrapper">
+     <span class="about_course__title">
+     Что будет на курсе
+    </span>
+    <div class="about_course__content">
+    <div class="about_course__group">
+      <div class="about_course__group-item">
+        <p class="about_course__group-item-title">7 лекций</p>
+        <p class="about_course__group-item-content">
+          насыщенных практикой
+        </p>
+      </div>
+      <div class="about_course__group-item">
+        <p class="about_course__group-item-title">2 гипотезы</p>
+        <p class="about_course__group-item-content">
+          минимум, которые проверишь на курсе
+        </p>
+      </div>
+      <div class="about_course__group-item">
+        <p class="about_course__group-item-title">3 методички</p>
+        <p class="about_course__group-item-content">
+          с пошаговым описанием действий как провести классный CustDev и как проверить любую гипотезу
+        </p>
+      </div>
+      <div class="about_course__group-item">
+        <p class="about_course__group-item-title">20 интервью</p>
+        <p class="about_course__group-item-content">
+          с пользователями твоего продукта
+        </p>
+      </div>
+    </div>
+    <div class="note">
+      <p class="note_title">Начнешь, наконец делать CUSTDEV</p>
+      <p class="note_content">
+        про который все давно говорят, но мало кто делает
+      </p>
+    </div>
+    </div>
+    <a class="about_course__link" href="#"><span class="about_course__text-link">Смотреть программу полностью</span></a>
+    </div>
+  </section>
+
+  <section class="results">
+    <div class="results-wrapper">
+    <span class="results__title">
+     Результат
+    </span>
+
+    <div class="results__group">
+      <div class="results__group-item">
+        <img src="assets/idea.svg" alt="idea" class="img">
+        <div>
+        <p class="results__group-item-title">Ты начнёшь делать Customer Development и проверять гипотезы в своём проекте</p>
+        <p class="results__group-item-content">
+          Структура курса построена построена вокруг практики в проектах участников курса. 100% слушателей
+          этого курса будут применять оба навыка в своих проектах
+        </p>
+        </div>
+      </div>
+
+      <div class="results__group-item">
+        <img src="assets/process.svg" alt="process" class="img">
+        <div>
+        <p class="results__group-item-title">Заведенный процесс</p>
+        <p class="results__group-item-content">
+          Обязательной частью обучения будет встройка процессов постоянного Customer Development и проверки гипотез в ежедневную рутину
+        </p>
+        </div>
+      </div>
+
+      <div class="results__group-item">
+        <img src="assets/files.svg" alt="files" class="img">
+        <div>
+        <p class="results__group-item-title">Инструменты, которые останутся с вами надолго</p>
+        <p class="results__group-item-content">
+          Все участники курса получат два набора карт — конструкторы, из которых можно будет собрать идеальный процесс Customer
+          Development и проверить любую гипотезу
+        </p>
+        </div>
+      </div>
+
+      <div class="results__group-item">
+        <img src="assets/cases.svg" alt="cases" class="img">
+        <div>
+        <p class="results__group-item-title">Кейсы и приёмы топовых компаний рунета</p>
+        <p class="results__group-item-content">
+          Расскажу и разберём кейсы, хаки и нюансы топовых команд России: SkyEng, Яндекс, Chatfuel
+        </p>
+          </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="author_profile">
+    <div class="author_profile-wrapper">
+     <span class="author_profile__title">
+     Почему мне можно доверять
+    </span>
+      <div class="author_profile-personal-info">
+        <img src="assets/player.jpeg" alt="player" class="author_profile__player"/>
+        <img src="assets/play.svg" alt="play" class="author_profile__play" />
+
+        <div class="author_profile-note">
+          <p class="author_profile-note-title ">Алексей Иванов</p>
+          <p class="author_profile-note_content">
+            Ex-Lead Product Manager
+          </p>
+        </div>
+      </div>
+
+      <div class="author_profile__group">
+
+        <div class="author_profile__group-item">
+            <img src="assets/messеngers.svg" alt="messengers" class="author-img">
+            <p class="author_profile__group-item-title">Опыт в продукте</p>
+            <p class="author_profile__group-item-content">
+              Отвечал за продукт поиска по изображениям, с помощью Customer Development и
+              юзабилити-исследований добились кратного роста метрик
+            </p>
+        </div>
+
+      <div class="author_profile__group-item">
+        <img src="assets/people.svg" alt="people" class="author-img">
+        <p class="author_profile__group-item-title">Обучил CustDev`у 400+ человек</p>
+        <p class="author_profile__group-item-content">
+          400+ человек уже прошли курс по CustDev и проверке гипотез в рамках отдельного курса,
+          так и в составе программы "Руководитель digital-продукта"
+        </p>
+      </div>
+
+
+    <div class="author_profile__group-item">
+      <img src="assets/message.svg" alt="message" class="author-img">
+      <p class="author_profile__group-item-title">Опыт разработки бота</p>
+      <p class="author_profile__group-item-content">
+        Создавали с нуля конструктор ботов для Messenger и выводили в лидеры рынка конструкторов ботов
+      </p>
+    </div>
+
+
+    <div class="author_profile__group-item">
+      <img src="assets/student.svg" alt="student" class="author-img">
+      <p class="author_profile__group-item-title">Топ-2 — оценка лектора</p>
+      <p class="author_profile__group-item-content">
+        Урезанный курс также читал в крупных digital -школах, студенты оценили как Топ-2 преподавателя
+      </p>
+    </div>
+    </div>
     </div>
   </section>
 

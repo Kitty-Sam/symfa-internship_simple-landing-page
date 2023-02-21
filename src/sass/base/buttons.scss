@@ -1,0 +1,28 @@
+.btn {
+  padding: 15px 24px;
+  color: $text-blue-color;
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 16.75%);
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.btn_border {
+  margin-bottom: 220px;
+  padding: 20px 40px;
+  background: $button-color;
+  border: 15px solid $button-border_color;
+  background-clip: padding-box;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: $text-light-color;
+}
+
+.bth_round {
+  width: 231px;
+  height: 231px;
+  border-radius: 150px;
+  box-shadow: 0 10px 50px rgba(119, 157, 255, 0.3);
+  background:  radial-gradient(#F9FBFF, #CADEF9);
+}

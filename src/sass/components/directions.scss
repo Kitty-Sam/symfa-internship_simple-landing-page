@@ -1,0 +1,41 @@
+.directions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 125px;
+  background: $shadow-color-direction;
+}
+
+.directions__group {
+  display: grid;
+  grid-auto-rows: 190px;
+  grid-template-columns: 224px 222px 225px;
+  max-width: 1000px;
+  padding-bottom: 147px;
+  column-gap: 180px;
+}
+
+.directions__title {
+  @extend %font-prim;
+  @include font($size: 3.0rem, $height: 124.41%, $weight: 700);
+  color: $text-dark-color;
+  margin-bottom: 60px;
+}
+
+.directions__group-item-title {
+  margin-bottom: 13px;
+  padding-right: 50px;
+  color:$text-blue-color;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143.55%;
+  text-transform: uppercase;
+}
+
+.directions__group-item-content {
+  color: $text-dark-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143.55%;
+}
