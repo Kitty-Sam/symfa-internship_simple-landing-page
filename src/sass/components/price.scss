@@ -73,7 +73,7 @@
   color: $text-blue-color;
 }
 
-.price__group-item-bottom-person{
+.price__group-item-bottom-person {
   @extend %font-prim;
   @include font($size: 1.6rem, $height: 158.47%, $weight: 600);
   color: $text-blue-color;
