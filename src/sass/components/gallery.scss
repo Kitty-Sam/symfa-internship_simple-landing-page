@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1440px;
+  background: $background-white-color;
+  padding-top: 120px;
+}
+
+.gallery__title {
+  @extend %font-prim;
+  @include font($size: 3.0rem, $height: 124.41%, $weight: 700);
+  color: $text-dark-color;
+}
+
+.gallery-photos {
+  display: grid;
+  grid-template-columns: 341px 341px 341px 341px;
+  column-gap: 25px;
+  row-gap: 25px;
+  padding: 60px  0 100px 0;
+}
+

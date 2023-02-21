@@ -1,0 +1,65 @@
+.footer {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.form {
+ background-color: $background-light-footer-color;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 108px;
+  padding-bottom: 84px ;
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 266px;
+  padding: 16px 0  22px 38px;
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 124.41%, $weight: 500);
+  color: $text-placeholder-color;
+  border: 1px solid rgba(47, 128, 237, 0.3)
+}
+
+.footer-navbar {
+  background-color: $background-dark-color;
+}
+
+.footer-navbar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px ;
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.info {
+  background-color: $background-dark-footer-color
+}
+.info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px ;
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 119.62%, $weight: 400);
+  color: $text-light-color;
+  opacity: 0.7;
+}
+
+.second {
+padding-left: 30px;
+}

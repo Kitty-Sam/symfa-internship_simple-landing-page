@@ -24,18 +24,16 @@
 }
 
 .directions__group-item-title {
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 143.55%, $weight: 600);
   margin-bottom: 13px;
   padding-right: 50px;
   color:$text-blue-color;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 143.55%;
   text-transform: uppercase;
 }
 
 .directions__group-item-content {
-  color: $text-dark-color;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 143.55%;
+  @extend %font-prim;
+  @include font($size: 1.4rem, $height: 143.55%, $weight: 400);
+  color: $text-grey-color;
 }
